@@ -1,15 +1,37 @@
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
+import '../../widgets/text_input_filed.dart';
 
 
-class Mail extends StatelessWidget {
-  const Mail({Key? key}) : super(key: key);
+ class Phone extends StatelessWidget {
+  final TextEditingController _mailController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(child: Text('Mail', style: TextStyle(fontSize: 20, color: contenuColor,),),),
+    SizedBox(height: 70,);
+    return  Scaffold(
+      backgroundColor: backgroundColor,
+      body: Container(
+
+       child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 16,),
+
+          child: TextFormField(
+            decoration: const InputDecoration(
+              border: UnderlineInputBorder(
+
+              ),
+
+              labelText: 'numero de téléphone ',
+
+            ),
+          ),
+        ),
+
+      ),
+
+
     );
   }
 }
