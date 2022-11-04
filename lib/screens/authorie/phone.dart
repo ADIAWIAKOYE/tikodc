@@ -12,4 +12,4 @@ class Mail extends StatelessWidget {
       child: Center(child: Text('Mail', style: TextStyle(fontSize: 20, color: contenuColor,),),),
     );
   }
-}
+ }
