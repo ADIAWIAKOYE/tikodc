@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 
 import '../constants.dart';
 import 'authorie/mail.dart';
@@ -14,27 +14,27 @@ class InscriPhoneUser extends StatelessWidget {
       length: 2,
          child: Scaffold(
 
-          appBar: AppBar(
+            appBar: AppBar(
 
-          centerTitle: true,
+            centerTitle: true,
 
-          leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios_rounded, color: Colors.black,),
-      onPressed: () => Navigator.of(context).pop(),
-      ),
+                leading: IconButton(
+                    icon: Icon(Icons.arrow_back_ios_rounded, color: Colors.black,),
+                    onPressed: () => Navigator.of(context).pop(),
+                    ),
 
-      title:  const Text('Inscription',
-      style: TextStyle(
-      fontSize: 20,
-      fontWeight: FontWeight.w500,
-      color: contenuColor,
+            title:  const Text('Connexion',
+            style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w500,
+            color: contenuColor,
 
-      ),
-      ),
-      backgroundColor: Colors.transparent,
+            ),
+            ),
+            backgroundColor: Colors.transparent,
 
-            elevation: 0,
-      ),
+                  elevation: 0,
+            ),
 
            backgroundColor: backgroundColor,
 
@@ -52,9 +52,9 @@ class InscriPhoneUser extends StatelessWidget {
                     child: Text('E-mail',
                       style: TextStyle(fontSize: 20, color: Colors.grey[700]),
                     ),
-          ),
-        ],
-        ),
+                ),
+              ],
+              ),
 
               Expanded(child: TabBarView(
                 children: [

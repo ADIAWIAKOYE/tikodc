@@ -5,3 +5,5 @@ const backgroundColor = Colors.white;
 var buttonColor = Colors.orange[900];
 const borderColor = Color.fromARGB(255, 155, 151, 151);
 const contenuColor = Colors.black;
+const brightness = Colors.black;
+const borderColor1 = Colors.white60;

@@ -149,7 +149,7 @@ class ProfileUserPage extends StatelessWidget {
               ],
             ),*/
 
-            SizedBox(height: 80,),
+            SizedBox(height: 50,),
             // bio
 
             /*Text('Ajouter une biographie',

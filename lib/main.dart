@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
     ),
     */
       home: Homepage(),
-      theme: ThemeData(brightness: Brightness.dark)
+      //theme: ThemeData(brightness: Brightness.dark)
     );
   }
 }

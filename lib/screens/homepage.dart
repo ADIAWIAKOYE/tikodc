@@ -40,18 +40,20 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: _pages[_selectedIndex],
-
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: brightness,
         currentIndex: _selectedIndex,
         onTap: _navigateBottomBar,
         type: BottomNavigationBarType.fixed,
         items:  [
-          const BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          const BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
+          const BottomNavigationBarItem(icon: Icon(Icons.home, color: Colors.white,), label: 'Home'),
+          const BottomNavigationBarItem(icon: Icon(Icons.search, color: Colors.white,), label: 'Search'),
         BottomNavigationBarItem(icon: Image.asset('assets/images/tiktok_add.png', height: 30,), label: ''),
-          const BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_rounded), label: 'Inbox'),
-          const BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+          const BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_rounded, color: Colors.white,), label: 'Inbox'),
+          const BottomNavigationBarItem(icon: Icon(Icons.person, color: Colors.white,), label: 'Profile'),
       ],),
+
     );
+
   }
 }
