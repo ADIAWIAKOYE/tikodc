@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'TikTok Clone',
-     /*
+      /*
       theme: ThemeData.dark().copyWith(
       scaffoldBackgroundColor: backgroundColor,
     ),
